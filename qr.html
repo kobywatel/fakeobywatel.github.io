@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>mObywatel — Kod QR</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: white;
+    }
+    .wrap {
+      max-width: 480px;
+      margin: 0 auto;
+      padding: 28px 16px 80px;
+      text-align: center;
+    }
+    .btn {
+      background: #1e293b;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      padding: 8px 12px;
+      cursor: pointer;
+      margin-bottom: 18px;
+    }
+    .qr-box {
+      width: 220px;
+      height: 220px;
+      margin: 18px auto;
+      border-radius: 18px;
+      background: linear-gradient(135deg, #f8fafc, #cbd5e1);
+      display: grid;
+      place-items: center;
+      color: #0f172a;
+      font-size: 30px;
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <button class="btn" onclick="location.href='index.html'">Wróć</button>
+    <h2>Kod QR</h2>
+    <div class="qr-box">QR</div>
+    <p>Skorzystaj z kodu QR, aby szybko wejść do usług i dokumentów.</p>
+  </div>
+</body>
+</html>
